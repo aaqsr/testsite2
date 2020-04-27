@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+}
+
+.margin {
+    margin: 30px;
+    /* background-color: blue; */
+    padding: 10px;
+}
