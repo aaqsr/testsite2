@@ -1,7 +1,10 @@
+/* TODO: CLEAN UP THIS CODE */
+
 .heading-grid {
     display: grid;
     grid-gap: 0px;
     /* grid-template-columns: 2fr 1fr; */
+
 }
 
 .heading-grid img {
@@ -10,6 +13,8 @@
     /* flex-direction: column; */
     justify-content: center;
 
+    width: 30%;
+
     grid-column: 0 / 3;
 
     grid-row: 0 / 3;
@@ -17,9 +22,9 @@
 
     /* background-color: blue; */
     margin: 0px;
-    padding: 0px;
-
 }
+
+
 
 .heading-grid h1 {
     /* display: flex; */
@@ -30,18 +35,30 @@
 
     grid-row: 2 / 3;
 
-    background-color: lightblue;
-
     margin: 0px;
-    padding: 0px;
 }
+
 
 .heading-grid .lbrow {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-
-    background-color: lightblue;
 }
+
+.heading-grid .lbrow, .heading-grid h1 {
+    background-color: skyblue;
+}
+
+
+/* @media only screen and (max-width: 600px) { */
+    /* .heading-grid h1 { */
+        /* 10vw; */
+        /* background-color: grey; */
+    /* } */
+
+    /* .heading-grid img { */
+        /* width="50%" */
+    /* } */
+/* } */
 
 
 /* header img { */
